@@ -12,22 +12,17 @@ print(text_1, text_2)
 
 #################################
 
-text_1 = 'Hello, world!'
-text_2 = ''
-print(text_1, text_2)
-
-##################################
-
 name, surname = 'Hello', 'world'
 print(name, surname, sep=', ', end='!')
 
 ####################################
 
-text_1, text_2 = "Hello, world!".split()
-print(text_1, text_2)
+# text_1 = 'Hello, world!'
+# text_2 = ''
+# print(text_1, text_2)
 
-#####################################
+# ##################################
 
-[print(text_1,text_2) for [text_1,text_2] in [['Hello,','world!']]]
+# [print(text_1,text_2) for [text_1,text_2] in [['Hello,','world!']]]
 
 
